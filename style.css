@@ -1,0 +1,336 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+}
+.container .navbar{
+    overflow: hidden;
+    width: 18%;
+    height: 100vh;
+    background-color: white;
+}
+.container .container-item{
+    width: 82%;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgb(234, 234, 234);
+}
+.navbar img{
+    width: 130px;
+    border-radius: 8px;
+}
+.portfolio{
+    padding: 16px;
+}
+.portfolio h1{
+    margin: 30px 0px;
+    font-size: 20px;
+}
+.portfolio p{
+    margin: 15px 0px;
+    font-size: 16px;
+    color: rgb(121, 121, 121);
+}
+.ahref a{
+    display: block;
+    padding: 8px 16px;
+    color: black;
+    text-decoration: none;
+}
+.ahref a:hover{
+    background-color: rgb(241, 241, 241);
+}
+.ahref i{
+    padding: 0px 15px 0px 5px;
+}
+.icon{
+    margin: 16px 0px;
+    padding: 0px 16px;
+    font-size: 20px;
+}
+.icon i:hover{
+    opacity: 0.7;
+}
+#port{
+    color: rgb(0, 195, 143);
+}
+#port:hover{
+    color: rgb(0, 0, 0);
+}
+.myportfolio{
+    padding: 0px 16px;
+}
+.myportfolio h1{
+    margin: 10px 0px;
+}
+.filter{
+    padding: 16px 0px;
+    margin: 16px 0px;
+}
+#f{
+    padding: 0px 16px 0px 0px;
+}
+.filter button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+.filter i{
+    padding: 0px 10px 0px 0px;
+}
+#all{
+    background-color: black;
+    color: white;
+}
+.filter button:hover{
+    background-color: rgb(202, 202, 202);
+}
+#all:hover{
+    color: black;
+    background-color: rgb(202, 202, 202);
+}
+.hr{
+    background-color: rgb(198, 198, 198);
+    height: 0px;
+    border: 3px solid rgb(198, 198, 198);
+}
+.fototext{
+    width: 33%;
+    padding:0px 8px;
+    padding-top: 20px;
+}
+.fototext img{
+    width: 100%;
+    display: block;
+}
+.fototext h2{
+    padding-top: 16px;
+    font-size: 18px;
+}
+.fototext p{
+    padding: 15px 0px;
+    font-size: 18px;
+}
+.fototext .bottom{
+    padding: 0px 16px;
+    background-color: white;
+}
+.fototext3{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 8px;
+
+}
+.ahref1234{
+    padding: 32px 0px;
+    display:flex;
+    justify-content: center;
+}
+.ahref1234 a{
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.ahref1234 a:hover{
+    background-color: black;
+    color: white;
+}
+#a1{
+    background:black;
+    color: white;
+}
+#a1:hover{
+    background:rgb(175, 175, 175);
+    color: rgb(0, 0, 0);
+}
+.foto2 img{
+    width: 48%;
+}
+.foto2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container2{
+    padding: 12px 24px;
+    margin: 0px 0px 24px;
+}
+.container2 h3{
+    margin: 18px 0px;
+    font-size: 20px;
+}
+.container2 h4{
+    margin: 16px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.container2 h5{
+    margin: 16px 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.foiz{
+    width: auto;
+    background-color: gray;
+}
+.foiz .foiz95{
+    padding: 12px 16px;
+    background-color: rgb(61, 61, 61);
+    width: 95%;
+    text-align: center;
+    color: white;
+}
+.foiz .foiz85{
+    padding: 12px 16px;
+    background-color: rgb(61, 61, 61);
+    width: 85%;
+    text-align: center;
+    color: white;
+}
+.foiz .foiz80{
+    padding: 12px 16px;
+    background-color: rgb(61, 61, 61);
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+.butt{
+    margin: 15px 0px;
+}
+.butt button{
+    margin: 16px 0px;
+    padding: 12px 24px;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    border: none;
+}
+button i{
+    padding-right: 10px;
+}
+.butt button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(174, 174, 174);
+}
+.bpp{
+    width: 32%;
+}
+.bpp ul li{
+  list-style-type: none;
+  padding: 15px;
+  border: 1px solid rgb(196, 196, 196);
+  text-align: center;
+  background-color: white;
+}
+.bpp{
+    opacity: 0.6;
+}
+.bpp:hover{
+    opacity: 1;
+  }
+#bas{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-size: 25px;
+}
+#pro{
+    background-color: rgb(10, 177, 154);
+    color: white;
+    padding: 30px;
+    font-size: 25px;
+}
+span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.bpp button{
+    padding: 12px 20px;
+    border: none;
+    background-color:rgb(0, 158, 158);
+    color: white;
+}
+#signup{
+    background-color: rgb(233, 233, 233);
+}
+.bpp button:hover{
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
+
+.bpp3{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: gray;
+    height: 30vh;
+    padding: 45px 30px;
+    display: flex;
+}
+.footer .footer1{
+    width: 33%  ;
+    padding: 0px 8px;
+}
+.footer1 p{
+    margin: 17px 0px;
+    color: white;
+    font-size: 18px;
+}
+.footer1 h1{
+    color: white;
+    font-weight: 500;
+}
+.footer1 ul img{
+    width: 20%;
+    margin: 0px 16px 0px 0px;
+    float: left;
+}
+.footer1 ul li{
+    list-style-type: none;
+    padding: 16px;
+}
+.footer1 ul li:hover{
+    background-color: rgb(164, 164, 164);
+}
+.footer1 .all{
+    margin: 30px 0px;
+    
+}
+.footer1 span {
+    margin-bottom: 50px;
+    padding: 0px 8px;
+    background-color: rgb(186, 186, 186);
+    color: black;
+}
+.footer1 .all span{
+    margin-bottom: 50px;
+    
+}
+.all .travel{
+    background-color: black;
+    color: white;
+}
+.fototext .top img:hover{
+    opacity: 0.7;
+}
+.footerend{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerend p{
+    color: white;
+}
+.footerend p a{
+    color: white;
+}
+.footerend p a:hover{
+    color: rgb(190, 190, 190);
+}
+.footer1 p a{
+    color: white;
+}
